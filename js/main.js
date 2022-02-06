@@ -148,10 +148,11 @@ selector.addEventListener('change', function () {
 
 let opzioni = selector.value;
 
-opzioni +=`  <option value="">All</option>
-				<option value="animal">Animal</option>
-				<option value="vegetable">Vegetable</option>
-				<option value="user">User</option>`;
+opzioni +=` <option value="">All</option>
+			<option value="animal">Animal</option>
+			<option value="vegetable">Vegetable</option>
+			<option value="user">User</option>`;
+
 selector.innerHTML+= opzioni;
 
 
