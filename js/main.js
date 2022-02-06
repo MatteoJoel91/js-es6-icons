@@ -146,13 +146,13 @@ selector.addEventListener('change', function () {
 	}	
 });
 
-let valueSelect = selector.value;
+let opzioni = selector.value;
 
-valueSelect +=`  <option value="">All</option>
+opzioni +=`  <option value="">All</option>
 				<option value="animal">Animal</option>
 				<option value="vegetable">Vegetable</option>
 				<option value="user">User</option>`;
-selector.innerHTML+= valueSelect;
+selector.innerHTML+= opzioni;
 
 
 
