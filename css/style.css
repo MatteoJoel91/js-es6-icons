@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container{
     max-width: 1000px;
     margin: 10px auto;
@@ -34,6 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .icon i{
