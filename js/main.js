@@ -146,7 +146,7 @@ selector.addEventListener('change', function () {
 	}	
 });
 
-let opzioni = selector.value;
+let opzioni = selector;
 
 opzioni +=` <option value="">All</option>
 			<option value="animal">Animal</option>
